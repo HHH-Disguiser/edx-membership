@@ -23,7 +23,7 @@ services:
 - 执行 make lms-logs 查看启动情况
     > 如果 log 出现报错，尝试执行 make lms-shell 进入 lms 环境，再依次执行 make clean 和 make requirements;退出 lms 环境，执行 make lms-static
 
-更新 lms.env.json，在 FEATURES 里加上以下字段
+更新 lms.env.json，在 FEATURES 里加上以下字段。
 ```json
 "FEATURE": {
     "ENABLE_MEMBERSHIP_INTEGRATION": true,
@@ -143,6 +143,6 @@ Visit the [Contributor Guidelines](https://github.com/e-ducation/edx-membership/
 ## Reporting Security Issues
 Please do not report security issues in public. Please email code@e-ducation.cn.
 
-## License
+## License  
 This project is licensed under the AGPL Version 3.0 License.
 See the [LICENSE](https://github.com/e-ducation/edx-membership/blob/master/LICENSE) file for the full license text.
